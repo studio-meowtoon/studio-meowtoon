@@ -1,6 +1,6 @@
 const path = require('path');
 module.exports = {
-    mode: "development", // to replace "production" in start the service.
+    mode: "production", // to replace "production" in start the service.
     entry: [
         './src/main/resources/assets/index.js'
     ],
@@ -8,7 +8,7 @@ module.exports = {
         path: path.join(__dirname, 'src/main/webapp/docroot/scripts'),
         filename: 'webapp.min.lib.js'
     },
-    devtool: 'source-map', // to delete in start the service.
+    //devtool: 'source-map', // to delete in start the service.
     module: {
         rules: [
             {
