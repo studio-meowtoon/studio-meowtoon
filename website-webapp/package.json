@@ -2,7 +2,7 @@
   "name": "website-webapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
@@ -17,10 +17,14 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "vue-html-loader": "^1.2.4",
     "webpack": "^4.36.1",
     "webpack-cli": "^3.3.6"
   },
   "dependencies": {
-    "uikit": "^3.1.6"
+    "uikit": "^3.1.6",
+    "vue": "^2.6.10"
   }
 }

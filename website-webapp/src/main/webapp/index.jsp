@@ -16,5 +16,6 @@
                 <span uk-icon="heart"></span>
             </div>
         </div>
+        <div id="vue-app"></div>
     </body>
 </html>
